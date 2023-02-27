@@ -14,9 +14,7 @@ API: flask
 Используемые признаки:
 
 duration
-
 contact
-
 poutcome
 
 Модель: logreg
