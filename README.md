@@ -23,8 +23,9 @@ __Модель:__ catboost
 
 Клонируем репозиторий и создаем образ
 
-'''
+```
 git clone https://github.com/PolinaNik/MIB_project.git
 cd MIB_project
 docker build -t catboost_model .
-'''
+
+```
