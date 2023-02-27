@@ -1,20 +1,28 @@
 # MIB_project
 Итоговый проект (пример) курса "Машинное обучение в бизнесе"
 
-Стек:
+__Стек:__
 
-ML: sklearn, pandas, numpy, catboost
+* ML: sklearn, pandas, numpy, catboost
 
-API: flask 
+* API: flask 
 
 Данные: с kaggle - https://www.kaggle.com/datasets/mrsohelrana/bank-marketing-data
 
-Задача: предсказать откроет ли клиент срочный вклад (поле y). Бинарная классификация
+__Задача:__ предсказать откроет ли клиент срочный вклад (поле y). Бинарная классификация
 
 Используемые признаки:
 
-duration
-contact
-poutcome
+* duration
+* contact
+* poutcome
 
-Модель: logreg
+__Модель:__ catboost
+
+## Инструкция
+
+Клонируем репозиторий и создаем образ
+
+$ git clone https://github.com/PolinaNik/MIB_project.git
+$ cd MIB_project
+$ docker build -t catboost_model .
